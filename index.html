@@ -45,6 +45,15 @@
             width: 100%;
             bottom: 0;
         }
+        .project, .experience {
+            background: #fff;
+            padding: 1em;
+            margin: 1em 0;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .project h3, .experience h3 {
+            margin-top: 0;
+        }
     </style>
 </head>
 <body>
@@ -55,38 +64,58 @@
     <nav>
         <a href="#about">About Me</a>
         <a href="#projects">Projects</a>
-        <a href="#blog">Blog</a>
+        <a href="#experience">Experience</a>
         <a href="#contact">Contact</a>
     </nav>
     <section id="about">
         <h2>About Me</h2>
-        <p>Hello! I'm Ahmed Elsawy, a software developer with over 3 years of experience as a backend engineer. I specialize in creating robust and scalable server-side applications. My passion lies in solving complex problems and delivering efficient software solutions.</p>
+        <p>Hello! I'm Ahmed Elsawy, a software developer with over 3 years of experience as a backend engineer. I specialize in creating robust and scalable server-side applications. I hold a B.Sc. in Computer Science from Menoufia University, where I'm also pursuing my M.Sc. Additionally, I completed an intensive diploma at ITI in full-stack web development using Python and React.js.</p>
     </section>
     <section id="projects">
         <h2>Projects</h2>
-        <p>Here are some of the projects I have worked on:</p>
-        <ul>
-            <li><strong>Project 1:</strong> Description of project 1.</li>
-            <li><strong>Project 2:</strong> Description of project 2.</li>
-            <li><strong>Project 3:</strong> Description of project 3.</li>
-        </ul>
+        <div class="project">
+            <h3>Subscription.V</h3>
+            <p>A subscribing platform where users can create a profile to subscribe to available plans. Built with Frappe ERPNext framework and Angular.js.</p>
+        </div>
+        <div class="project">
+            <h3>Netflix Clone</h3>
+            <p>Video streaming website that clones Netflix, featuring custom video player and various categories for movies and TV shows. Backend APIs developed using Django Rest framework, with front-end using React.js.</p>
+            <a href="https://www.youtube.com/watch?v=_K_Csl8ypq8" target="_blank">Watch Demo</a>
+        </div>
+        <div class="project">
+            <h3>Any Stream</h3>
+            <p>A platform where users can register, choose a plan, and subscribe. Built with Django and React.js.</p>
+            <a href="https://anystream-1b.herokuapp.com" target="_blank">Visit Site</a>
+        </div>
     </section>
-    <section id="blog">
-        <h2>Blog</h2>
-        <p>Check out my latest blog posts:</p>
-        <ul>
-            <li><a href="#">Blog Post 1</a></li>
-            <li><a href="#">Blog Post 2</a></li>
-            <li><a href="#">Blog Post 3</a></li>
-        </ul>
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="experience">
+            <h3>Coding Instructor, ISchool</h3>
+            <p>December 2023 – Present | Remote, Part-Time</p>
+            <ul>
+                <li>Teaching students aged 10 to 12 the fundamentals of computer science, Python, Scratch, web development, and educational game engines like Godot and Pictoblox.</li>
+            </ul>
+        </div>
+        <div class="experience">
+            <h3>Software Engineer, XonTel</h3>
+            <p>April 2021 – Present | Alexandria, Egypt</p>
+            <ul>
+                <li>Worked on a web-hosted call center system to manage calls and tickets.</li>
+                <li>Improved performance by 80% for social media services by adding pagination.</li>
+                <li>Added SMS messaging interface using various SMS gateway APIs.</li>
+                <li>Implemented live search and real-time event handling with pop-up notifications.</li>
+                <li>Designed a user-friendly interface for administrative tasks.</li>
+            </ul>
+        </div>
     </section>
     <section id="contact">
         <h2>Contact</h2>
-        <p>If you would like to get in touch, please email me at <a href="mailto:ahmed@example.com">ahmed@example.com</a>.</p>
+        <p>If you would like to get in touch, please email me at <a href="mailto:sawyahmed951@gmail.com">sawyahmed951@gmail.com</a>.</p>
+        <p>You can also connect with me on <a href="https://www.linkedin.com/in/ahmed-elsawy-5aba9411/" target="_blank">LinkedIn</a> or check out my projects on <a href="https://github.com/ElsawyAhmed" target="_blank">GitHub</a>.</p>
     </section>
     <footer>
         <p>&copy; 2024 Ahmed Elsawy</p>
     </footer>
 </body>
 </html>
-
